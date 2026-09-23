@@ -1,0 +1,31 @@
+{
+    "name": "naaba/charts",
+    "description": "The laravel charting package. A fork from ConsoleTVS Charts with super powers.",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/console": "^5.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "balping/json-raw-encoder": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Naaba Technologies LLC",
+            "email": "info@naabatechs.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Naaba\\Charts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Naaba\\Charts\\ChartsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
